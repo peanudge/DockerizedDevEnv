@@ -6,9 +6,9 @@
       "type": "coreclr",
       "request": "launch",
       "preLaunchTask": "build-web-example",
-      "program": "${workspaceFolder}/src/WebExample/bin/Debug/net7.0/WebExample.dll",
-      "args": [],
-      "cwd": "${workspaceFolder}/src/WebExample",
+      "program": "${workspaceFolder}/WebExample/bin/Debug/net7.0/WebExample.dll",
+      "args": ["--urls", "http://+:5100"],
+      "cwd": "${workspaceFolder}/WebExample",
       "stopAtEntry": false,
       "console": "integratedTerminal"
     }

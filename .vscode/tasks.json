@@ -5,7 +5,7 @@
       "label": "build-web-example",
       "type": "shell",
       "command": "dotnet",
-      "args": ["build", "src/WebExample/WebExample.csproj"],
+      "args": ["build", "./WebExample/WebExample.csproj"],
       "group": {
         "kind": "build",
         "isDefault": true
