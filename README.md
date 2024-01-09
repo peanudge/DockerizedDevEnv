@@ -2,7 +2,7 @@
 
 This project is template for docker based development environment.
 
-VSCode extension (Dev Container)
+VSCode extension (Dev Container): ms-vscode-remote.remote-containers
 
 1. Start "dev-env" docker image
 
@@ -32,3 +32,6 @@ Password: Password1
 1> SELECT @@VERSION
 2> GO
 ```
+
+2. In VScode, Open command menu, and search for "Remote-Container: Rebuild and Reopen in Container"
+
