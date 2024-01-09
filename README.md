@@ -1,4 +1,4 @@
-# "Dev Container" Project Template
+# Dockerized dev environment
 
 This project is template for docker based development environment.
 
@@ -33,5 +33,4 @@ Password: Password1
 2> GO
 ```
 
-2. In VScode, Open command menu, and search for "Remote-Container: Rebuild and Reopen in Container"
-
+2. In VScode, Open command menu, and search for "Dev-Container: Rebuild and Reopen in Container"

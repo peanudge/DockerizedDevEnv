@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run WebExample",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-web-example",
+      "program": "${workspaceFolder}/src/WebExample/bin/Debug/net7.0/WebExample.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/src/WebExample",
+      "stopAtEntry": false,
+      "console": "integratedTerminal"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Run All",
+      "configurations": ["Run WebExample"]
+    }
+  ]
+}

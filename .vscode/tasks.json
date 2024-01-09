@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build-web-example",
+      "type": "shell",
+      "command": "dotnet",
+      "args": ["build", "src/WebExample/WebExample.csproj"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
